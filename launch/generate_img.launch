@@ -1,0 +1,4 @@
+<launch>
+  <node name="generate_img" pkg="img_generator" type="generate_img.py" output="screen" />
+  <!--node name="point" pkg="img_generator" type="point.py" output="screen" /-->
+</launch>
